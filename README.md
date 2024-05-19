@@ -1,29 +1,29 @@
 # Page-View Time Series Visualizer 
 This project involves visualizing time series data using line charts, bar charts, and box plots. The dataset contains the number of daily page views on the "freeCodeCamp.org" forum from 2016-05-09 to 2019-12-03. By leveraging Pandas, Matplotlib, and Seaborn, we aim to uncover patterns in visit data and identify yearly and monthly growth trends.
 
-Project Overview:
+# Project Overview:
 
-Objectives:
+# Objectives:
 
-1- Data Import and Cleaning:
+# 1- Data Import and Cleaning:
 
     1- Import the data from "fcc-forum-pageviews.csv" using Pandas.
     2- Set the date column as the index.
     3- Filter out the days where page views fall in the top or bottom 2.5% of the dataset to clean the data.
 
-2- Data Visualization:
+# 2- Data Visualization:
 
     1- Line Chart: Create a function draw_line_plot to generate a line chart visualizing daily page views.
     2- Bar Chart: Create a function draw_bar_plot to generate a bar chart showing average daily page views for each month, grouped by year.
     3- Box Plots: Create a function draw_box_plot to generate two adjacent box plots to display the distribution of page views by year and by month.
 
-3- Bar Chart:
+# 3- Bar Chart:
 
     1- implement draw_bar_plot to show average daily page views per month, grouped by year.
     2- The legend should include month labels with a title "Months".
     3- Label the x-axis as "Years" and the y-axis as "Average Page Views".
 
-4- Box Plots:
+# 4- Box Plots:
 
     1- Implement draw_box_plot using Seaborn to create two box plots:
          *Year-wise Box Plot (Trend): Displays distribution of page views by year.
@@ -31,7 +31,7 @@ Objectives:
     2- Ensure month labels on the x-axis start at January.
     3- Label the axes appropriately.
 
-Implementation:
+# Implementation:
 
         # Importing libraries
         import pandas as pd
@@ -95,6 +95,6 @@ Implementation:
         draw_bar_plot()
         draw_box_plot()
 
-Conclusion:
+# Conclusion:
 
 By visualizing the time series data with line charts, bar charts, and box plots, we can better understand the patterns in page views on the freeCodeCamp.org forum. This project demonstrates effective data cleaning, analysis, and visualization techniques using Pandas, Matplotlib, and Seaborn.
