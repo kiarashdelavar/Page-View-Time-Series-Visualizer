@@ -4,6 +4,7 @@ This project involves visualizing time series data using line charts, bar charts
 Project Overview:
 
 Objectives:
+
 1- Data Import and Cleaning:
 
     1- Import the data from "fcc-forum-pageviews.csv" using Pandas.
