@@ -1,5 +1,5 @@
 # Page-View Time Series Visualizer 
-This project involves visualizing time series data using line charts, bar charts, and box plots. The dataset contains the number of daily page views on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. By leveraging Pandas, Matplotlib, and Seaborn, we aim to uncover patterns in visit data and identify yearly and monthly growth trends.
+This project involves visualizing time series data using line charts, bar charts, and box plots. The dataset contains the number of daily page views on the "freeCodeCamp.org" forum from 2016-05-09 to 2019-12-03. By leveraging Pandas, Matplotlib, and Seaborn, we aim to uncover patterns in visit data and identify yearly and monthly growth trends.
 
 Project Overview:
 
